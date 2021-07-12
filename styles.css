@@ -1,13 +1,19 @@
 header {
     display: flex;
+    align-items: center;
     width: 100%;
     flex-direction: row;
     justify-content: flex-end;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 24px;
 }
 
 a {
     text-decoration: none;
     margin: 5px;
+    color: black;
 }
 
 a:hover {
@@ -16,6 +22,9 @@ a:hover {
 
 #header-right {
     margin-left: auto;
+    display: flex;
+    flex-basis: auto;
+    align-items: center;
 }
 
 #about-lk {
