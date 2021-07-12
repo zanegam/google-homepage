@@ -6,6 +6,17 @@ a:hover {
     text-decoration: underline;
 }
 
+header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#header-right {
+    margin-left: auto;
+}
+
 #app-lk img {
     width: 20px;
     height: auto;
