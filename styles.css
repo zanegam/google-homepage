@@ -106,9 +106,13 @@ a:hover {
 }
 
 #search-bar {
-    display: flex;
+    flex:100%
     padding: 5px 8px 0px 14px;
+}
 
+#search-input {
+    width: 100%;
+    border: none;
 }
 
 
