@@ -1,4 +1,8 @@
 #main {
+    display: block;
+}
+
+body {
     display: flex;
     flex-direction: column;
     height: 100%;
