@@ -6,13 +6,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-family: arial, sans-serif;
 }
 
 header {
     display: flex;
     align-items: center;
     float: right;
-    font-family: arial, sans-serif;
     font-size: 13px;
     font-weight: 400;
     height: 60px;
@@ -41,6 +41,18 @@ a:hover {
 
 #login-lk {
     margin-right: 8px;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    color: white;
+    padding: 9px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+#login-lk:hover {
+    background-color: rgb(43, 125, 233);
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+    text-decoration: none;
 }
 
 #app-lk {
