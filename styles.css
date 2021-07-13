@@ -1,12 +1,17 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 header {
     display: flex;
     align-items: center;
-    width: 100%;
     float: right;
     font-family: arial, sans-serif;
     font-size: 13px;
     font-weight: 400;
-    height: 24px;
+    height: 60px;
 }
 
 a {
@@ -49,4 +54,9 @@ a:hover {
     height: 24px;
     padding: 8px;
 }
+
+#logo-div {
+    display: hidden;
+}
+
 
