@@ -2,8 +2,7 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
-    flex-direction: row;
-    justify-content: flex-end;
+    float: right;
     font-family: arial, sans-serif;
     font-size: 13px;
     font-weight: 400;
@@ -35,8 +34,19 @@ a:hover {
     margin-right: 8px;
 }
 
-#app-lk svg {
+#app-lk {
     width: 40px;
     height: 40px;
+}
+
+#app-lk:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    border-radius: 50%;
+}
+
+#app-lk svg {
+    width: 24px;
+    height: 24px;
+    margin: auto;
 }
 
