@@ -93,4 +93,22 @@ a:hover {
     margin-top: auto;
 }
 
+#search-area-div {
+    display: block;
+}
+
+#search-bar-div {
+    display: flex;
+    max-width: 584px;
+    width: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+#search-bar {
+    display: flex;
+    padding: 5px 8px 0px 14px;
+
+}
+
 
