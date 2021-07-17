@@ -125,3 +125,11 @@ a:hover {
     outline: none;
 }
 
+.search-btns {
+    background-color: rgb(235, 237, 240);
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    padding: 10px;
+}
+
