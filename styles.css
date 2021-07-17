@@ -106,8 +106,13 @@ a:hover {
 }
 
 #search-bar {
-    flex:100%
+    flex:4px 100% 1;
     padding: 5px 8px 0px 14px;
+}
+
+#mag-glass{
+    width: 4px;
+    height: auto;
 }
 
 #search-input {
