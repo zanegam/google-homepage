@@ -178,3 +178,13 @@ footer a{
     display: flex;
     justify-content: space-between;
 }
+
+#carbon {
+    display: flex;
+    align-items: center;
+}
+
+#leaf-img {
+    height: 14px;
+    margin-right: 6px;
+}
