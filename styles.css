@@ -106,11 +106,11 @@ a:hover {
 }
 
 #search-bar {
-    flex:4px 100% 1;
+    flex:20px 1 20px;
     padding: 5px 8px 0px 14px;
 }
 
-#mag-glass{
+.search-icons{
     width: 20px;
     height: 20px;
     padding: 4px;
