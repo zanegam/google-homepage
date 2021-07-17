@@ -121,4 +121,7 @@ a:hover {
     border: none;
 }
 
+#search-input:focus-visible {
+    outline: none;
+}
 
