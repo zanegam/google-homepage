@@ -169,11 +169,12 @@ footer {
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
+    padding: 0 20px;
 }
 
-footer a{
+footer a {
     color: rgb(112, 117, 122);
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .footer-links {
